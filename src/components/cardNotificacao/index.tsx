@@ -4,7 +4,7 @@ import { Pressable, Text, View } from "react-native";
 export function CardNotificacao() {
     return (
 
-        <Pressable className="bg-white rounded-xl px-5 py-2 gap-1 flex flex-row items-center justify-start mb-2">
+        <Pressable className="bg-white rounded-xl px-5 gap-1 flex flex-row items-center justify-start">
             <View className="p-3 bg-blue-500 rounded-full">
                 <Ionicons name="notifications" size={30} color="#FFFF" />
             </View>

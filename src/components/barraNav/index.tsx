@@ -4,7 +4,7 @@ import { Text, TouchableOpacity, View } from "react-native";
 
 export function BarraNav() {
     return (
-        <View className=" bottom-0 left-0 right-0 bg-white/90 border-t border-gray-200 px-8 flex-row justify-between items-center">
+        <View className=" absolute bottom-0 left-0 right-0 bg-white/90 border-t border-gray-200 px-9 p-1 flex-row justify-between items-center  z-50">
 
             <TouchableOpacity className="items-center">
                 <Ionicons name="home" size={32} color="#136dec" />
@@ -20,7 +20,7 @@ export function BarraNav() {
                 </Text>
             </TouchableOpacity>
 
-            <View className="relative -top-8 w-20 h-20 bg-blue-600 rounded-full items-center justify-center shadow-lg">
+            <View className="relative -top-10 w-20 h-20 bg-blue-600 rounded-full items-center justify-center shadow-lg">
                 <Ionicons name="add" size={35} color="#fff" />
             </View>
 
