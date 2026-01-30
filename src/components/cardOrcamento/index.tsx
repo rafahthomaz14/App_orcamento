@@ -62,7 +62,8 @@ export function CardOrcamento() {
                         <Ionicons name="calendar-outline" size={15} color="#9ca3af" />
                         <Text className="font-light text-gray-400 ml-2 ">29 Jan 2026</Text>
                     </View>
-                    <Text style={{ textDecorationLine: "line-through", textDecorationColor: "#6B7280", textDecorationStyle: "solid", }} className="text-gray-500 font-extrabold text-2xl"> R$ 4.500,00 </Text>            </View>
+                    <Text style={{ textDecorationLine: "line-through", textDecorationColor: "#6B7280", textDecorationStyle: "solid", }} className="text-gray-500 font-extrabold text-2xl"> R$ 4.500,00 </Text>
+                </View>
             </Pressable>
         </View>
 

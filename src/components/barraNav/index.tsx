@@ -25,9 +25,9 @@ export function BarraNav() {
             </View>
 
             <TouchableOpacity className="items-center">
-                <Ionicons name="people-outline" size={32} color="#9ca3af" />
+                <Ionicons name="download-outline" size={32} color="#9ca3af" />
                 <Text className="text-[10px] font-medium text-gray-400 mt-1">
-                    Clientes
+                    Downloads
                 </Text>
             </TouchableOpacity>
 

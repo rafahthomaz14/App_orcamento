@@ -38,7 +38,6 @@ export function Perfil() {
                 </Pressable>
             </View>
 
-
             <View className="mt-20">
                 <Pressable className="bg-red-100 w-full p-4 rounded-xl flex flex-row justify-center items-center">
                     <View className="flex flex-row items-center gap-3">
@@ -47,6 +46,7 @@ export function Perfil() {
                     </View>
                 </Pressable>
             </View>
+
         </View>
     )
 }
