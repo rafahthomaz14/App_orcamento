@@ -8,6 +8,8 @@ import { Header } from '../components/header';
 import { Notificacao } from '../components/notificacao';
 import { Orcamento } from '../components/orcamento';
 import Tabs from '../components/tabBar';
+// import { Perfil } from '../Pages/perfil';
+
 const statusBarHeight = Constants.statusBarHeight;
 
 export default function Index() {
@@ -15,21 +17,20 @@ export default function Index() {
 
     <View className='flex-1'>
       <ScrollView className='bg-gray-100' >
-        {/* adicionando tela inteira com um padding nas laterais de 5  */}
         <View className="w-full px-5" style={{ marginTop: statusBarHeight + 8 }}>
           <Header />
           <BtnAdicionar />
-          <Tabs/>
+          <Tabs />
           <Orcamento />
           <CardOrcamento />
           <Notificacao />
           <CardNotificacao />
+
+          {/* <Perfil/> */}
+
         </View>
-
       </ScrollView>
-
       <BarraNav />
-
     </View>
 
 
