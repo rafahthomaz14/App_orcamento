@@ -1,15 +1,7 @@
 import Constants from 'expo-constants';
 import { ScrollView, View } from "react-native";
-import { BtnAdicionar } from '../components/adicionar';
-import { BarraNav } from '../components/barraNav';
-import { CardNotificacao } from '../components/cardNotificacao';
-import { CardOrcamento } from '../components/cardOrcamento';
-import { Header } from '../components/header';
-import { Notificacao } from '../components/notificacao';
-import { Orcamento } from '../components/orcamento';
-import Tabs from '../components/tabBar';
-// import { Perfil } from '../Pages/perfil';
-
+import { BarraNav } from '../components/Home-Components/barraNav';
+import Home from '../Pages/Home';
 const statusBarHeight = Constants.statusBarHeight;
 
 export default function Index() {
@@ -18,16 +10,7 @@ export default function Index() {
     <View className='flex-1'>
       <ScrollView className='bg-gray-100' >
         <View className="w-full px-5" style={{ marginTop: statusBarHeight + 8 }}>
-          <Header />
-          <BtnAdicionar />
-          <Tabs />
-          <Orcamento />
-          <CardOrcamento />
-          <Notificacao />
-          <CardNotificacao />
-
-          {/* <Perfil/> */}
-
+          <Home/>
         </View>
       </ScrollView>
       <BarraNav />

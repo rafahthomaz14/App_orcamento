@@ -31,7 +31,7 @@ export function BarraNav() {
                 </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity className="items-center">
+            <TouchableOpacity className="items-center" >
                 <Ionicons name="person-outline" size={24} color="#9ca3af" />
                 <Text className="text-[10px] font-medium text-gray-400 mt-1">
                     Perfil
