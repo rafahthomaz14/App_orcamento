@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Pressable, Text, View } from "react-native";
 
 export default function Tabs() {
-    const [activeTab, setActiveTab] = useState("Orçamentos");
+    const [activeTab, setActiveTab] = useState("Aceito");
 
-    const tabs = ["Orçamentos", "Em Análise", "Recusados"];
+    const tabs = ["Aceito", "Em Análise", "Recusados"];
 
     return (
         <View className="flex-row border-b border-gray-200 mb-4">
