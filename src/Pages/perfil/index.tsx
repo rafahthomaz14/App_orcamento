@@ -1,7 +1,7 @@
-import { Image, Pressable, Text, TextInput, View } from "react-native";
+import { Image, Pressable, ScrollView, Text, TextInput, View } from "react-native";
 export function Perfil() {
     return (
-        <View>
+        <ScrollView>
             <View className="flex justify-center items-center py-6">
                 <Image
                     source={{ uri: 'https://picsum.photos/200/300' }}
@@ -102,6 +102,6 @@ export function Perfil() {
 
             </View>
 
-        </View>
+        </ScrollView>
     )
 }
