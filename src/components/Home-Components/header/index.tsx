@@ -9,7 +9,7 @@ export function Header({ title = "Default Title" }) {
 
         <View className="w-full flex flex-row items-center justify-between px-5" style={{ marginTop: statusBarHeight + 8 }}>
             <Pressable className="w-10 h-10 bg-transparent rounded-full flex justify-center items-center">
-                <Ionicons name="menu" size={25} color="#121212" />
+                <Ionicons name="exit-outline" size={25} color="#121212" />
             </Pressable>
 
             <View className="flex-row items-center justify-center gap-1">
