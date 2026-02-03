@@ -28,3 +28,8 @@ npm install
    ```bash
    npx expo start
    ```
+
+<p align="center">
+  <img src="./assets/img1.jpeg" width="300" />
+  <img src="./assets/img2.jpeg" width="300" />
+</p>

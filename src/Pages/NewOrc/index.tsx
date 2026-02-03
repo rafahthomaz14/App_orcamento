@@ -30,7 +30,7 @@ export function NewOrc() {
         <ScrollView className="flex-1 p-5 ">
             <View className="flex flex-row gap-3">
                 <View className="w-1/6 gap-2">
-                    <Text className="font-semibold">Orçamento</Text>
+                    <Text className="font-semibold">N°</Text>
                     <TextInput className="border border-gray-400 shadow h-10 rounded-xl w-full" />
                 </View>
 
